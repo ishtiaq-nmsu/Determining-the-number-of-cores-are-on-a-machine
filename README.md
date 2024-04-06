@@ -1,1 +1,3 @@
 # Determining-the-number-of-cores-are-on-a-machine
+
+In this experiment, I aim to determine the number of CPU cores present in three different computers running with different operating systems. In each machine three different programming language C, Python and Java are used. By using multiple thread to execute the programs, I observed how runtime varies with the increasing thread count as well as how it varies in different programming language and in different operating systems. In ideal scenario, if the system is using the cores equitably, we should have similar runtime until we create more than N thread where N is the reported number of cores.
